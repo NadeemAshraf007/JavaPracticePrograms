@@ -15,7 +15,6 @@ public class Demo {
 					try {
 						Thread.sleep(1000);
 					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					System.out.println("Asynchronous task1-"+i);
@@ -30,7 +29,6 @@ public class Demo {
 					try {
 						Thread.sleep(1000);
 					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					System.out.println("Asynchronous task2-"+i);
